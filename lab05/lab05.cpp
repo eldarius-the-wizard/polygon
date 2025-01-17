@@ -151,7 +151,7 @@ void flashSort(vector<int>& arr) {
 #endif
 
 int main() {
-    const int SIZE = 1000000;
+    const int SIZE = 50000;
     vector<int> arr = generateRandomList(SIZE);
 
     cout << "Array size: " << SIZE << endl;
